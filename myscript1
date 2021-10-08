@@ -1,0 +1,8 @@
+#!/bin/bash
+if mkdir ~/same
+then
+cp /etc/hosts ~/same
+echo "copy successfully"
+else
+echo "failed"
+fi

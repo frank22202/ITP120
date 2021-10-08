@@ -1,0 +1,12 @@
+#!/bin/bash
+echo -e "Enter score? \c"
+read SCORE
+if [ $SCORE -ge 90 && $SCORE -le 100 ]
+then
+echo "A"
+elif [ $SCORE -ge 80 ]
+then
+echo "B"
+else
+echo "failed"
+fi

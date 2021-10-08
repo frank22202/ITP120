@@ -1,0 +1,6 @@
+#!/bin/bash
+#test
+date 
+echo -e "who is this:\c\t"
+who
+ls -F /

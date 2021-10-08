@@ -1,0 +1,6 @@
+#!/bin/bash
+for NAME in bob sue mary
+do
+mail -s "subject "
+echo "$NAME was emailed"
+done
