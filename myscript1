@@ -2,7 +2,7 @@
 if mkdir ~/same
 then
 cp /etc/hosts ~/same
-echo "copy successfully"
+echo "copy successfully. Good Job!"
 else
 echo "failed"
 fi
